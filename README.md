@@ -1,3 +1,3 @@
-# html-101
+# Coding Fundamentals: HTML & CSS
 
 Source files for in-class exercise

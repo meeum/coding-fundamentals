@@ -9,6 +9,24 @@ body {
 	
 }
 
+/* IMAGES */
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+/* LINKS */
+
+a {
+	color: darkblue;	 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
 /* framework */
 
 header,
@@ -23,10 +41,14 @@ main {
 	padding-bottom: 20px;
 }
 
-/* NAVIGATION */
 nav li {
 	list-style: none;
 	margin-bottom: 20px;
+}
+
+footer a,
+nav a {
+	color: peachpuff;
 }
 
 
@@ -43,23 +65,8 @@ h2 {
 
 
 
-/* IMAGES */
 
-img {
-	max-width: 100%;
-	margin-bottom: 20px;
-}
 
-/* LINKS */
-
-a {
-	color: peachpuff;
-}
-
-/* just the links inside .intro */
-section a {
-	color: DarkSlateBlue;	 
-}
 
 /* these are the 'a' tags with a class of button */
 .button {
@@ -91,4 +98,9 @@ section {
 	color: #f1f1f1;
 	font-size: 24px;
 	border-color: #f1f1f1; /* see how we're overriddng an existing border-color from article */
+}
+
+/* just the links inside .intro */
+.intro a {
+	color: peachpuff;
 }

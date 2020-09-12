@@ -1,3 +1,3 @@
-# Coding Fundamentals: HTML & CSS
+# HTML & CSS for everyone
 
-Source files for in-class exercise
+Final files for video series exercise

@@ -10,23 +10,31 @@ body {
 	
 }
 
-/* header and footer */
+/* framework */
 
 header,
 footer {
 	text-align: center;
+	color: white;
 }
 
-section {
+main {
 	background-color: SteelBlue;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
+/* NAVIGATION */
+nav li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+
 /* TYPOGRAPHY */
 
 h1 {
-	color: white;
+	
 	font-size:50px;
 }
 
@@ -34,9 +42,9 @@ h2 {
 	font-size:30px;
 }
 
-/* ARTICLES */
+/* SECTIONS */
 
-article {
+section {
 	max-width:1000px;
 	margin:20px auto;
 	border:2px solid black;
@@ -44,7 +52,7 @@ article {
 	background-color:#f1f1f1;
 }
 
-article.intro {
+.intro {
 	background-color: black;
 	color:#f1f1f1;
 	font-size:24px;

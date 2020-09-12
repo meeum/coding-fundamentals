@@ -10,10 +10,11 @@ body {
 	
 }
 
+/* header and footer */
+
 header,
 footer {
 	text-align: center;
-	color: white;
 }
 
 section {
@@ -24,13 +25,8 @@ section {
 
 /* TYPOGRAPHY */
 
-h1,
-h2,
-p {
-	padding-bottom: 1em;
-}
-
 h1 {
+	color: white;
 	font-size:50px;
 }
 
